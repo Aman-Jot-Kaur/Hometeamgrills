@@ -13,7 +13,7 @@ body::-webkit-scrollbar {
 #body-header {
     height: 65vh;
     opacity: 1;
-    background-image: url(https://images.squarespace-cdn.com/content/v1/5709580c45bf2194c862b07a/1554881112754-8HMXIG740O5EQENLDAIF/ke17ZwdGBToddI8pDm48kLLfwFAJFy9uI_Z8ZHV3qNF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1USLgHB22VM7ROJKGBx6NfVkIQ74YDUHqVRxQO-QKHyH5Nqcg1uYJ0UckdvGUXVHAnA/Shirish-Sen_Kohinoor-Calendar-2018_03-Eid-ul-Fitr.jpg?format=2500w);
+    background-color: #602568;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
