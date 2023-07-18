@@ -1,0 +1,117 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 50vw;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.role-select {
+    margin-left: 0%;
+    padding-left: 0cm;
+  
+}
+
+.form-container {
+    background-color: #fff;
+    border-radius: 8px;
+
+    padding: 20px;
+    width: 50%;
+}
+
+.image-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    height: 50vh;
+    flex: 1;
+}
+
+.image-container img {
+    width: auto;
+    max-width: 100%;
+    height: 100%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+label {
+    font-weight: bold;
+    width: 100%;
+
+    text-align: left;
+}
+
+input,
+select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+
+    /* max-width: 300px; */
+}
+
+select {
+    width: 120%;
+    padding-left: -15%;
+}
+
+input,
+button {
+    margin-left: 10px;
+}
+
+.signup-button,
+.google-button,
+.phone-button {
+    padding: 0.5rem 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: auto;
+    font-size: 0.8rem;
+    /* width: 100%; */
+    max-width: 300px;
+    text-align: center;
+}
+
+.signup-button:hover,
+.google-button:hover,
+.phone-button:hover {
+    background-color: #45a049;
+    cursor: pointer;
+
+}
+
+.google-button {
+    background-color: brown;
+}
+
+#recaptcha-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.role-label{
+    color:dimgray;
+    font-style: italic;
+}

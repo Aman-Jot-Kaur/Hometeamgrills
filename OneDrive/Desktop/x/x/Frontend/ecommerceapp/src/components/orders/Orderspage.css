@@ -1,0 +1,155 @@
+.orders-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.earnings {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.earnings-label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.earnings-value {
+    font-size: 20px;
+}
+
+.orders-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-gap: 20px;
+}
+
+.order-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.order-card:hover {
+    transform: translateY(-4px);
+}
+
+.order-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.order-status {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.order-status.in-progress {
+    background-color: #007bff;
+}
+
+.order-status.delivered {
+    background-color: #28a745;
+}
+
+.order-details p {
+    margin: 0;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.order-label {
+    font-weight: bold;
+}
+
+/* Additional Styles */
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    .orders-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Centering Content */
+.orders-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.orders-list {
+    justify-items: center;
+}
+
+.order-card {
+    max-width: 320px;
+    width: 100%;
+}
+
+/* Responsive Card Design */
+.order-card {
+    border: 1px solid #eaeaea;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.order-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-header {
+    margin-bottom: 12px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.order-status {
+    padding: 6px 12px;
+    font-size: 12px;
+}
+
+.order-status.in-progress {
+    background-color: #2c82ff;
+}
+
+.order-status.delivered {
+    background-color: #3cbc4b;
+}
+
+.order-details p {
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.order-label {
+    font-weight: bold;
+    margin-right: 6px;
+}
+
+/* Rest of the CSS styles remain the same */
